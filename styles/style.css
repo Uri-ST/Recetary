@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Young Serif";
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+body{
+    background-color:hsl(30, 54%, 90%);
+    margin: auto;
+    font-family: "Outfit";
+}
+
+.line{
+    width: 90%;
+}
+.margins-line{
+    margin: auto;
+}
+
+.main{
+    background-color: white;
+    width: 50vw;
+    margin: 100px auto 100px;
+    padding: 50px 0 8px;
+    border-radius: 20px;
+}
+
+.main-header{
+    width: 90%;
+    margin: auto;
+}
+
+.main-header__image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.main-header__principal-title{
+    font-family:"Young Serif";
+    font-size:46px;
+    margin:14px 0;
+}
+
+.main-header__principal-text{
+    margin-bottom: 54px;
+    line-height: 22px
+}
+
+.main-preparation{
+    padding-bottom: 44px;
+    width: 90%;
+    padding:24px 32px;
+    border-radius: 24px;
+    background-color:hsl(330, 100%, 98%);
+}
+
+.preparation-margins{
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.main-preparation__preparation-title{
+    font-size: 22px;
+    margin-bottom: 8px;
+    color:hsl(332, 51%, 32%) ;
+}
+
+.main-preparation__recet-timing{
+    line-height: 32px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.text_bold{
+    font-weight: bold;
+    color: hsl(30, 10%, 34%);
+}
+
+.main-preparation__recet-timing li::before {
+    content: "•";
+    color:hsl(332, 51%, 32%) ;
+    padding-right: 24px;
+}
+
+.ingredients{
+    width: 90%;
+}
+
+.ingredients-margins{
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.ingredients__title{
+    font-family: "Young Serif";
+    font-size: 34px;
+    margin-bottom: 16px;
+    color:hsl(14, 45%, 36%) ;
+}
+
+.ingredients__list{
+    line-height: 32px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.ingredients__list li::before{
+    content: "•";
+    color:hsl(332, 51%, 32%) ;
+    padding-right: 22px;
+}
+
+.instructions {
+    width: 90%;
+}
+
+.instructions-margins{
+    margin: auto;
+    margin-bottom: 44px;
+    margin-top: 34px;
+}
+
+.instructions__title{
+    font-family: "Young Serif";
+    font-size: 34px;
+    margin-bottom: 16px;
+    color:hsl(14, 45%, 36%) ;
+}
+
+.instructions__list{
+    line-height: 32px;
+    padding-left: 16px;
+    text-align: justify;
+}
+
+.instructions__list li::marker{
+    color:hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+
+.nutrition{
+    width: 90%;
+}
+
+.nutrition-margins{
+    margin: auto;
+    margin-bottom: 34px;
+    margin-top: 34px;
+}
+
+.nutrition__title{
+    font-family: "Young Serif";
+    font-size: 34px;
+    margin-bottom: 16px;
+    color:hsl(14, 45%, 36%) ;
+}
+
+.nutrition__text{
+    padding-bottom: 14px;
+}
+
+.nutrition__table{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    width: 100%;
+}
+
+.nutrition__table:last-child{
+    border-bottom: none;
+}
+
+.nutrition__table td{
+    padding-bottom: 14px;
+    padding-top: 14px;
+    width: 50%;
+}
+
+.nutrition__table td:nth-child(2){
+    color:hsl(332, 51%, 32%) ;
+    font-weight: bold;
+}
+
+.attribution{
+    text-align: center;
+}
