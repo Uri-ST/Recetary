@@ -193,3 +193,86 @@ body{
 .attribution{
     text-align: center;
 }
+
+/*mediaquery 768px*/
+
+@media (max-width:1024px){
+    .main{
+        width: 60vw;
+    }
+}
+
+@media (max-width:768px){
+    .main{
+        width: 70vw;
+    }
+}
+
+@media (max-width:425px){
+    .main{
+        width: 100vw;
+        margin:0;
+        padding: 0 14px 0;
+    }
+
+    .main-header{
+        padding-top: 40px;
+    }
+
+    .main-header__principal-title{
+        font-family:"Young Serif";
+        font-size:36px;
+    }
+
+    .main-header__principal-text{
+        font-size: 14px;
+    }
+
+    .main-preparation__preparation-title{
+        font-size: 20px;
+    }
+    
+    .main-preparation__text{
+        font-size: 13px;
+        padding-left: 0;
+    }
+    
+    
+    .main-preparation__recet-timing li::before {
+        content: "•";
+        color:hsl(332, 51%, 32%) ;
+        padding-right: 1px;
+    }
+
+    .text_bold{
+        font-size: 14px;
+    }
+
+    .ingredients__title{
+        font-size: 28px;
+    }
+
+    .ingredients__list{
+        font-size: 6px;
+    }
+
+    .instructions__title{
+        font-size: 28px;
+    }
+
+    .nutrition__title{
+        font-size: 28px;
+    }
+
+    .attribution{
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width:360px){
+    .main-header__principal-title{
+        font-size: 28px;
+    }
+
+    .
+}
